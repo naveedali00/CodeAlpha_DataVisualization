@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Titanic Survival — Data Visualization Dashboard</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f9fa; color: #23303a; margin: 0; padding: 0 0 60px 0; }
+  header { background: linear-gradient(135deg, #1c3d3d, #2E8B8B); color: white; padding: 48px 24px 36px; text-align: center; }
+  header h1 { margin: 0 0 8px; font-size: 2rem; }
+  header p { margin: 0; opacity: 0.9; font-size: 1.05rem; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 32px 20px; }
+  .card { background: white; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); margin-bottom: 32px; overflow: hidden; }
+  .card img { width: 100%; display: block; }
+  .card-body { padding: 20px 26px 26px; }
+  .card-body h2 { margin: 0 0 8px; font-size: 1.25rem; color: #1c3d3d; }
+  .card-body p { margin: 0; line-height: 1.55; color: #445; }
+  footer { text-align: center; color: #8a97a0; font-size: 0.85rem; margin-top: 20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🚢 Who Survived the Titanic — and Why?</h1>
+  <p>A data story built from 891 passenger records | CodeAlpha Data Analytics Internship — Task 3</p>
+</header>
+<div class="container">
+  <div class="card">
+    <img src="01_overall_survival.png" alt="The Baseline">
+    <div class="card-body">
+      <h2>The Baseline</h2>
+      <p>Out of 891 passengers on board, only 38% survived — this is the number every other chart below explains.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="02_survival_by_class.png" alt="Class Mattered">
+    <div class="card-body">
+      <h2>Class Mattered</h2>
+      <p>1st class passengers survived at roughly 63%, more than double the ~24% survival rate in 3rd class — likely tied to cabin location and lifeboat access.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="03_survival_by_sex.png" alt="Gender Mattered More">
+    <div class="card-body">
+      <h2>Gender Mattered More</h2>
+      <p>Women survived at about 74% versus roughly 19% for men, reflecting the 'women and children first' evacuation protocol.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="04_survival_by_class_and_sex.png" alt="The Two Factors Compound">
+    <div class="card-body">
+      <h2>The Two Factors Compound</h2>
+      <p>A woman in 1st class had the best odds by far; a man in 3rd class had the worst — class and gender stack on top of each other.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="05_age_distribution.png" alt="Children Had an Edge">
+    <div class="card-body">
+      <h2>Children Had an Edge</h2>
+      <p>The survival-density curve skews younger — children under 10 show a visibly better survival rate than most other age bands.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="06_fare_vs_age_scatter.png" alt="Fare as a Class Proxy">
+    <div class="card-body">
+      <h2>Fare as a Class Proxy</h2>
+      <p>Higher-fare tickets (bigger dots = higher class) cluster more with survival, reinforcing that wealth and class access shaped outcomes.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="07_survival_by_family_size.png" alt="The Family-Size Sweet Spot">
+    <div class="card-body">
+      <h2>The Family-Size Sweet Spot</h2>
+      <p>Solo travelers and very large families (5+) fared worse than small families of 2-4 — small groups could coordinate and board together more easily.</p>
+    </div>
+  </div>
+</div>
+<footer>Built with Python, Pandas, Matplotlib &amp; Seaborn — CodeAlpha Data Analytics Internship</footer>
+</body>
+</html>
