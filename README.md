@@ -50,11 +50,19 @@ each chart is paired with a one-line insight, in narrative order.
 7. **The Family-Size Sweet Spot** — small families (2-4 people) survived
    better than solo travelers or very large families.
 
+## Dashboard Screenshots
+<img width="892" height="767" alt="Screenshot 2026-09-07 220655" src="https://github.com/user-attachments/assets/0973d1bd-b702-4f7f-a00a-e3e6e31e10b5" />
+<img width="880" height="706" alt="Screenshot 2026-09-07 220637" src="https://github.com/user-attachments/assets/1327715c-2224-4faf-ad03-9d03cce8f9ba" />
+<img width="872" height="787" alt="Screenshot 2026-09-07 220608" src="https://github.com/user-attachments/assets/435b7f67-f014-45c0-ac65-f732439674ff" />
+<img width="910" height="866" alt="Screenshot 2026-09-07 220549" src="https://github.com/user-attachments/assets/9bda1c4b-96e1-4b29-a04b-907df6c30e16" />
+
+
+
 ## ⚙️ How to Run This Project Locally
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/CodeAlpha_DataVisualization.git
+   git clone https://github.com/<naveedali00>/CodeAlpha_DataVisualization.git
    cd CodeAlpha_DataVisualization
    ```
 
